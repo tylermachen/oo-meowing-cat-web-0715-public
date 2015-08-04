@@ -8,7 +8,7 @@ class Cat
   end
 
   def get_in_box(box)
-    if self.size <= box.size
+    if size <= box.size
       puts "Meow! I'm in the box"
     else
       puts "Sad meow, I'm not in box"
